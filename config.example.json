@@ -1,0 +1,49 @@
+{
+  "enabled": true,
+  "tap_behavior": "capslock",
+  "hold_behavior": "hyper",
+  "hyper_modifiers": [
+    "CTRL",
+    "ALT",
+    "SHIFT",
+    "WIN"
+  ],
+  "ignore_top_number_row": true,
+  "ignore_function_keys": true,
+  "capture_numpad": true,
+  "ignore_injected_events": true,
+  "process_blacklist": [],
+  "letters_sc_map": {
+    "SC01E": "A",
+    "SC030": "B",
+    "SC02E": "C",
+    "SC020": "D",
+    "SC012": "E",
+    "SC021": "F",
+    "SC022": "G",
+    "SC023": "H",
+    "SC017": "I",
+    "SC024": "J"
+  },
+  "numpad_sc_map": {
+    "SC052": "NUMPAD0",
+    "SC04F": "NUMPAD1",
+    "SC050": "NUMPAD2",
+    "SC051": "NUMPAD3",
+    "SC04B": "NUMPAD4",
+    "SC04C": "NUMPAD5",
+    "SC04D": "NUMPAD6",
+    "SC047": "NUMPAD7",
+    "SC048": "NUMPAD8",
+    "SC049": "NUMPAD9"
+  },
+  "output_map": {
+    "SC010": {
+      "vk": "VK_F13",
+      "mods": []
+    }
+  },
+  "allowed_main_keys": [],
+  "allowed_numpad_keys": [],
+  "config_version": 2
+}

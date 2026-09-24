@@ -1,0 +1,5 @@
+-r requirements.txt
+PyInstaller==6.21.0
+pytest==9.1.1
+Pygments==2.20.0
+ruff==0.15.22

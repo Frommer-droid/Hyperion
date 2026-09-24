@@ -1,0 +1,81 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+pycache/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec.bak
+
+# Environments
+.env
+.venv
+env/
+venv/
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Local config (user-specific)
+config.json
+settings.json
+
+# Compiled app folder (в корне проекта)
+/Phonetic_Hyper/
+/Hyperion/
+
+# Universal Kit Exclusions:
+00_CrRel.pyw
+00_Move.pyw
+*_template.pyw
+*_GUIDE.md
+Build_Tools/*.template
+Build_Tools/*_template.py
+
+# Release Guide Exclusions:
+logo.png
+00_*
+*.lnk
+*.bat
+*.tmp
+*.json
+*.toml
+.DS_Store
+test_output/
+fixtures/temp/
+node_modules/
+target/
+temp/
+tmp/
+test_*
+temp_*
+debug_*
+sample_*
+screenshot_*.png
+
+# Автоматические тесты являются частью исходников.
+!tests/
+!tests/test_*.py
+
+# Keep important files (negations)
+!config.example.json
+!pyproject.toml
+!Build_Tools/*.spec
+.agent/
